@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Student Details</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-heading">Student Details</h1>
+        <div class="form-container">
+            <div>
+                <p class="error-message"></p>
+            </div>
+            <form class="form" id="form">
+                <label for="name" style="padding-left:2px;padding-right:38px;">Name</label>
+                <input type="text" class="name" id="studentName" required />
+                <br /><br />
+                <label for="id">Student ID</label>
+                <input type="text" class="id" id="studentID" required />
+                <br /><br />
+                <label for="marks" style="padding-left:2px;padding-right:36px;">Marks</label>
+                <input type="number" class="marks" id="studentMarks" required />
+                <br /><br />
+                <div style="padding-left:20px;">
+                    <button type="button" id="submit" onclick="onSubmit()">Submit</button>
+                    <button type="button" id="saveData" onclick="resetForm()">Reset</button>
+                </div>
+            </form>
+        </div>
+        <div id="msg"></div>
+        <div class="table-container">
+            <table class="table" border="2" id="table">
+                <tr class="column-heading">
+                    <th>Name</th>
+                    <th>Student Id</th>
+                    <th>Marks</th>
+                    <th>Actions</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="../script.js"></script>
+</body>
+
+</html>
