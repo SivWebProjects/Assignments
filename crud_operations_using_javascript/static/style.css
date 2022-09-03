@@ -1,0 +1,90 @@
+body {
+    height: 100vh;
+    background-color: cornsilk;
+}
+
+.page-heading {
+    text-align: center;
+    font-size: 40px;
+    color: cornflowerblue;
+    margin: 30px;
+    font-family: "Sans-Serif";
+    font-weight: bold;
+}
+
+.form-container {
+    margin-top: 30px;
+    width: 60vh;
+    height: 35vh;
+    text-align: center;
+    margin-left: 15vh;
+    padding-top: 10px;
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+}
+
+.error-message {
+    font-size: 15px;
+    color: crimson;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: darkcyan;
+    font-weight: 500;
+}
+
+button {
+    font-size: 15px;
+    margin-right: 10px;
+    background-color: white;
+    color: darkcyan;
+    height: 28px;
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: burlywood;
+    border-width: 1px;
+}
+
+.msg {
+    font-size: 15px;
+    color: green;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+}
+
+.table-container {
+    margin-top: 50px;
+    padding: 25px;
+    width: 100vh;
+    height: 60vh;
+    text-align: center;
+    margin-left: 5vh;
+    background-color: bisque;
+    margin-bottom: 30px;
+}
+
+.table {
+    border-color: brown;
+    border-collapse: collapse;
+    border-width: 1px;
+    padding: 30px;
+    background-color: papayawhip;
+}
+
+th {
+    color: darkorange;
+    font-size: 20px;
+    width: 50vh;
+}
+
+td {
+    color: olive;
+    font-size: 17px;
+    width: 50vh;
+    font-weight: 500;
+}
