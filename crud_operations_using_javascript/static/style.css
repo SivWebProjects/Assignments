@@ -17,17 +17,10 @@ body {
     width: 60vh;
     height: 35vh;
     text-align: center;
-    margin-left: 15vh;
+    margin-left: 65vh;
     padding-top: 10px;
     background-color: antiquewhite;
     margin-bottom: 30px;
-}
-
-.error-message {
-    font-size: 15px;
-    color: crimson;
-    font-family: "Roboto";
-    margin-bottom: 20px;
 }
 
 label {
@@ -50,11 +43,12 @@ button {
     border-width: 1px;
 }
 
-.msg {
+#msg {
     font-size: 15px;
     color: green;
     font-family: "Roboto";
     margin-bottom: 20px;
+    margin-left: 90vh;
 }
 
 .table-container {
@@ -63,7 +57,7 @@ button {
     width: 100vh;
     height: 60vh;
     text-align: center;
-    margin-left: 5vh;
+    margin-left: 45vh;
     background-color: bisque;
     margin-bottom: 30px;
 }
