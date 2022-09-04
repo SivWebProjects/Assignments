@@ -1,0 +1,138 @@
+.battery-container {
+    height: 100vh;
+    font-family: Sans-Serif;
+}
+
+.navbar-container {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    color: red;
+    background-color: bisque;
+    height: 10vh;
+}
+
+.about:hover {
+    font-weight: bold;
+}
+
+a {
+    color: red;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.about-container {
+    background-color: cornsilk;
+    padding: 15px;
+    height: 50vh;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.about-container h1 {
+    color: blue;
+}
+
+.about-container p {
+    font-size: 15px;
+    color: darkorange;
+}
+
+.product-container {
+    background-color: seashell;
+    padding: 15px;
+    height: 65vh;
+}
+
+.product-container h1 {
+    color: green;
+}
+
+.product-container img {
+    width: 200px;
+    height: 180px;
+    padding-bottom: 15px;
+}
+
+.product-container iframe {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.services-container {
+    background-color: lavender;
+    padding: 15px;
+    height: 33vh;
+}
+
+.services-container h1 {
+    color: dimgray;
+}
+
+.services-container p {
+    font-size: 15px;
+    color: darkslategray;
+    padding-right: 10px;
+}
+
+.address-container {
+    background-color: moccasin;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 60px;
+    height: 35vh;
+}
+
+/*peru olive bisque wheat thistle snow silver papayawhip palegoldenrod gainsboro 
+    ghostwhite lavender lightgray lightsteelblue linen mintcream mistyrose cornsilk burlywood tan
+    coral orange aliceblue antiquewhite azure beige blanchedalmond floralwhite honeydew ivory lavenderblush
+    lemonchiffon khaki moccasin peachpuff lightgoldernrodyellow lightgrey lightpink lightyellow rosybrown
+    linen navajowhite oldlace seashell whitesmoke*/
+
+.address-container h1 {
+    color: teal;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.address-container span {
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+}
+
+.address-container p {
+    font-size: 15px;
+    color: olive;
+    padding-right: 10px;
+}
+
+.address-2-container {
+    margin-left: 80vh;
+}
+
+.mail-link {
+    color: olive;
+}
+
+.whatsapp-icon {
+    color: blue;
+    font-size: 18px;
+}
+
+hr {
+    color: black;
+    width: 100%;
+}
+
+.copy-right {
+    text-align: center;
+    font-weight: bold;
+    color: olive;
+}
