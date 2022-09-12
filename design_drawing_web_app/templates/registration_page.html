@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <p>{{msg}}</p>
+    <form method="POST" action="{{url_for('add')}}">
+        <label for="name">User Name: </label>
+        <input type="text" name="name" id="name" style="margin-left:33px;" />
+        <br/><br/>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" style="margin-left:84px;" />
+        <br/><br/>
+        <label for="ph_no">Phone Number: </label>
+        <input type="number" name="ph_no" id="ph_no" />
+        <br/><br/>
+        <label for="pwd">Password: </label>
+        <input type="password" name="pwd" id="pwd" style="margin-left:47px;" />
+        <br/><br/>
+        <button>Submit</button>
+    </form>
+    <div>
+        Already Registered. <a href="/">Log in</a>
+    </div>
+</body>
+</html>
