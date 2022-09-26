@@ -3,6 +3,7 @@ API URL: https://api.coinstats.app/public/v1/coins?skip=0&limit=100&currency=INR
 The API GET method was used to read the data from the URL and the fetch method was used to retrieve the data. 
 Later on in the page, all of the cryptocurrency names and prices are displayed in a tabular format.
 The output is as follows:
+
 <img width="659" alt="output_image_1" src="https://user-images.githubusercontent.com/99475439/192325572-7576c4db-092e-406e-aeba-b3c323c6ff5f.png">
 
 <img width="661" alt="output_image_2" src="https://user-images.githubusercontent.com/99475439/192325620-3329bc16-c23e-4691-a43b-9b3afc6c420c.png">
