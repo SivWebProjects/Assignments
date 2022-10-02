@@ -8,6 +8,15 @@
 
 
 def reading_file_data(file_path):
+    """
+    Read data from a given file, store it in a dictionary, and return the dictionary.
+
+    Parameters: 
+        file_path: The path to the file specified by the user as an input.
+    Result:
+        members_amount (dictionary): The data read from the given file is stored in the dictionary, 
+                                     with member as a key and amount as a value.
+    """
     with open(file_path) as file:  
         members_amounts = dict() 
         for line in file.readlines():
@@ -21,6 +30,19 @@ def reading_file_data(file_path):
 
 
 def display_result(members_and_amounts, paid_members_and_amounts):
+    """
+    Takes the two dictionaries containing the data read from the members.txt and payments.txt files and returns three lists.
+    The first list contains members who have not made any payments, the second list contains members who have made partial 
+    payments, and the final list contains members who have made extra payments.
+
+    Parameters:
+        members_and_amounts (dictionary): The dictionary includes all of the names and outstanding amounts from the members.txt file.
+        paid_members_and_amounts (dictionary): The dictionary includes all of the names and amounts paid as read from the payments.txt file.
+    Result:
+        members_not_paid (list): The list of members who had outstanding amount but have not made payment.
+        members_partial_payment (list): The list of members who had outstanding amount and have made partial payment.
+        members_extra_payment (llist): The list of members who had outstanding amount have made extra payment.
+    """
     members_not_paid, members_partial_payment, members_extra_payment = [], [], []
     for member, amount in members_and_amounts.items():
         if member not in paid_members_and_amounts.keys():
