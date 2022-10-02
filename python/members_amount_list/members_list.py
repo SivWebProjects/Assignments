@@ -6,8 +6,6 @@
 #  2. Had outstanding and have made partial payment
 #  3. Have made extra payment
 
-from numpy import true_divide
-
 
 def reading_file_data(file_path):
     with open(file_path) as file:  
@@ -61,4 +59,3 @@ results = display_result(members_and_amounts, paid_members_and_amounts)
 print("The list of members who had outstanding but have not made payment are:" + str(results[0]))
 print("The list of members who had outstanding and have made partial payment are:" + str(results[1]))
 print("The list of members who had outstanding and have made extra payment are:" + str(results[2]))
-# print(display_result(members_and_amounts, paid_members_and_amounts))
