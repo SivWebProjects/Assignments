@@ -10,13 +10,30 @@
 
 
 def store_phone_numbers(file_path): 
+    """
+    Read data from a given file, store it in a list, and return the list.
+
+    Parameters:
+        file_path: The location of the file containing the phone numbers.
+    Result:
+        phone_numbers (list): The list contains all of the phone numbers read from the file.
+    """
     with open(file_path) as file:
-        phone_numbers = [line.strip() for line in file.readlines()]
-        
+        phone_numbers = [line.strip() for line in file.readlines() if line != " "]
+    
     return phone_numbers
 
 
-def display_vip_numbers(file_path):
+def display_vip_numbers(phone_numbers):
+    """
+    Takes the list of phone numbers read from the given file and returns the list of VIP 
+    phone numbers that meet the conditions specified in the problem statement.
+
+    Parameters:
+        phone_numbers (list): The list contains all of the phone numbers read from the file.
+    Result:
+        vip_numbers (list): The list contains all of the VIP phone numbers.
+    """
     phone_numbers = store_phone_numbers(file_path)
     vip_numbers = []
     for ph_num in phone_numbers:
@@ -45,6 +62,8 @@ def display_vip_numbers(file_path):
                             break
     return vip_numbers
     
-            
-vip_numbers = display_vip_numbers(input("Please enter absolute file path (full path) which contains phone numbers: "))
+
+file_path = input("Please enter absolute file path (full path) which contains phone numbers: ")
+phone_numbers = store_phone_numbers(file_path)
+vip_numbers = display_vip_numbers(phone_numbers)
 print("The list of VIP numbers from given list of phone numbers are: " + str(vip_numbers))
