@@ -1,0 +1,13 @@
+Ram 40000
+Sita 50000
+Vishnu 39000
+Lakshmi 70000
+Shiva 80000
+Parvathi 90000
+Venkatesh 45000
+Padmavathi 55000
+Bhoomi 65000
+Sai Baba 75000
+Hanuman 85000
+Lakshman 95000
+ 
