@@ -8,14 +8,12 @@
 # 4. The first 5 and last 5 digits have the first 3 digits identical,
 # with a pair of digits flipped at the end. Example: 9923999293
 
-# import os
-
 
 def store_phone_numbers(file_path): 
-    # Add documentation string
     with open(file_path) as file:
         phone_numbers = [line.strip() for line in file.readlines()]
-        return phone_numbers
+        
+    return phone_numbers
 
 
 def display_vip_numbers(file_path):
